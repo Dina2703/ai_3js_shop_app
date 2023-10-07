@@ -8,6 +8,7 @@ import {
   headTextAnimation,
   slideAnimation,
 } from "../config/motion";
+import { CustomBtn } from "../components";
 
 function Home() {
   const snap = useSnapshot(state);
@@ -39,6 +40,12 @@ function Home() {
               deleniti tempora.
             </p>
           </motion.div>
+          <CustomBtn
+            type="filled"
+            title="Customize It"
+            handleClick={() => (state.intro = false)}
+            customStyles="w-fit px-4 py-2.5 font-bold text-sm "
+          />
         </motion.section>
       )}
     </AnimatePresence>
