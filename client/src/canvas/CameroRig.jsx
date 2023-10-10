@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 import { useSnapshot } from "valtio";
@@ -17,7 +17,7 @@ const CameroRig = ({ children }) => {
     let targetPosition = [-0.4, 0, 2];
     if (snap.intro) {
       if (isBreakpoint) targetPosition = [0, 0, 2];
-      if (isMobile) targetPosition = [0, 1, 2.5];
+      if (isMobile) targetPosition = [-0.2, 0.5, 2.5];
     } else {
       if (isMobile) targetPosition = [0, 0, 2.5];
       else targetPosition = [0, 0, 2];
