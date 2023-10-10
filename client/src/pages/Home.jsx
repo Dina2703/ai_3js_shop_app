@@ -35,7 +35,6 @@ function Home() {
             <p className="max-w-md font-normal to-gray-600 text-base">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Aspernatur, non itaque laborum eius est earum iusto commodi quia
-              sit eum quas assumenda{" "}
               <strong>delectus minus ipsum expedita</strong>, aliquid, ipsam
               deleniti tempora.
             </p>
