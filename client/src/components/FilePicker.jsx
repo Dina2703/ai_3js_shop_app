@@ -1,4 +1,3 @@
-import React from "react";
 import CustomBtn from "./CustomBtn";
 
 export const FilePicker = ({ file, setFile, readFile }) => {
